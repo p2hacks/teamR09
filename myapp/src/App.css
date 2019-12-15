@@ -1,0 +1,158 @@
+.App {
+ 
+ 
+
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #e6e6fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.btn-square-pop {
+  position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #fd9535;/*背景色*/
+  border-bottom: solid 2px #d27d00;/*少し濃い目の色に*/
+  border-radius: 4px;/*角の丸み*/
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+}
+
+.btn-square-pop:active {
+  border-bottom: solid 2px #fd9535;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+h1{
+  text-shadow: 2px  2px 3px white,
+  -2px  2px 3px white,
+   2px -2px 3px white,
+  -2px -2px 3px white;
+  font-family: Osaka ;
+}
+
+h2{
+  text-align: center;
+  background-image: url("image2.jpg");
+  font-size: xx-large;
+  text-shadow: 2px  2px 3px white,
+            -2px  2px 3px white,
+             2px -2px 3px white,
+            -2px -2px 3px white;
+            font-family: Osaka ;
+}
+
+h3{
+  text-align: center;
+  font-size: medium;
+}
+
+h4{
+  text-align: center;
+  font-size: large;
+  color: white;
+  text-shadow: 2px  2px 3px blue,
+            -2px  2px 3px blue,
+             2px -2px 3px blue,
+            -2px -2px 3px blue;
+            font-family: Osaka ;
+}
+
+
+
+
+
+p{
+  text-shadow: 2px  2px 3px yellowgreen,
+            -2px  2px 3px yellowgreen,
+             2px -2px 3px yellowgreen,
+            -2px -2px 3px yellowgreen;
+            font-family: Osaka ;
+  font-size: x-large;
+}
+
+.normal-box2{
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #50f0f8ff;
+  border-radius: 10px;
+  
+  display: inline-block;
+
+  width: 1000;
+}
+
+.normal-box2 p{
+  margin: 0;
+  padding: 0;
+}
+
+.memobox{
+  margin: 1em 0;
+  background-color: #50d3d3d3;
+  padding: 1em;
+  display: inline-block;
+}
+
+.memobox-title{
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+
+
+.memobox p{
+  margin: 0;
+  padding: 0;
+}
+
+.tape-box{
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #ffffcc;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
+
+.tape{
+  display: block;
+  background-color: #ccb;
+  opacity: 0.2;
+  transform: rotate(3deg);
+  width: 40%;
+  height: 35px;
+  margin: -2em auto 0 auto;
+  border-left: 3px dotted rgba(0,0,0,.1);
+  border-right: 3px dotted rgba(0,0,0,.1);
+}
+
+.tape-box p{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+  background-image: url("image1.jpg");
+  /*background-color: khaki;*/
+  font-family: "Yu Gothic";
+}
+
+
+
+.App-link {
+  color: #09d3ac;
+}
